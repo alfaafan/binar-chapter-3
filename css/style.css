@@ -1,0 +1,32 @@
+/* setting font */
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.headings {
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* navbar */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section .hero {
+  background-image: url(/img/bg/main-bg.jpg);
+}
