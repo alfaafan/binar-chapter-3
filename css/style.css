@@ -7,11 +7,6 @@
   font-family: "Bebas Neue", cursive;
 }
 
-h1 {
-  font-size: 80px;
-  font-weight: bold;
-}
-
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -21,12 +16,30 @@ h3 {
   font-size: 24px;
   font-weight: bold;
 }
+/* header */
+header {
+  background-image: url(/img/bg/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+section .container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 25vh;
+  color: white;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+}
 
 /* navbar */
 nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-section .hero {
-  background-image: url(/img/bg/main-bg.jpg);
+section .container {
 }
