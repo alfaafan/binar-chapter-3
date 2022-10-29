@@ -119,3 +119,22 @@ nav {
 #features .features-content {
   margin-top: 10vh;
 }
+
+/* System Req */
+#system-req {
+  height: 100vh;
+  background-image: url(/img/bg/requirements.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#system-req .system-req-info {
+  padding-top: 10vh;
+}
+
+#system-req h1 {
+  font-size: 80px;
+  letter-spacing: 0.2rem;
+  margin-top: 5vh;
+}
