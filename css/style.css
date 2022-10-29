@@ -79,6 +79,8 @@ nav {
 #gallery {
   height: 100vh;
   background-image: url(/img/bg/the-games-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery h1 {
@@ -91,4 +93,29 @@ nav {
 
 #gallery .gallery-right {
   margin-top: 25vh;
+}
+
+/* features */
+#features {
+  height: 100vh;
+  background-image: url(/img/bg/features.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#features .features-title {
+  margin-top: 25vh;
+}
+
+#features h1 {
+  font-size: 80px;
+  letter-spacing: 0.2rem;
+}
+
+#features h3 {
+  letter-spacing: 0.2rem;
+}
+
+#features .features-content {
+  margin-top: 10vh;
 }
