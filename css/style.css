@@ -24,6 +24,15 @@ header {
   height: 100vh;
 }
 
+/* navbar */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* hero */
+section .container {
+}
+
 section .container h1 {
   font-size: 80px;
   font-weight: bold;
@@ -31,15 +40,11 @@ section .container h1 {
   color: white;
 }
 
-.hero p {
+#hero p {
   color: white;
   font-size: 18px;
 }
 
-/* navbar */
-nav {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-section .container {
+.header-scroll-link-wrapper {
+  text-decoration: none;
 }
