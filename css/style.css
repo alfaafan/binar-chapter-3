@@ -138,3 +138,8 @@ nav {
   letter-spacing: 0.2rem;
   margin-top: 5vh;
 }
+
+#system-req h2 {
+  font-size: 36px;
+  letter-spacing: 0.2rem;
+}
