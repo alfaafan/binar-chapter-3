@@ -42,10 +42,16 @@ html .main-button {
   font-weight: bold;
 }
 
-html .navigation {
+html .navigation a {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+html .navigation:hover {
+  color: #fbb341 !important;
 }
 
 /* header */
@@ -62,28 +68,32 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+nav .nav-icon {
+  margin-top: 10px;
+}
+
 /* hero */
-#hero h1 {
-  margin-top: 25vh;
+#hero {
+  padding-top: 10%;
 }
 
 .header-scroll-link-wrapper {
   text-decoration: none;
 }
 
-/* gallery */
-#gallery {
+/* about */
+#about {
   height: 100vh;
   background-image: url(/img/bg/the-games-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#gallery .gallery-left {
+#about .about-left {
   margin-top: 25vh;
 }
 
-#gallery .gallery-right {
+#about .about-right {
   margin-top: 25vh;
 }
 
@@ -114,7 +124,7 @@ nav {
 
 /* System Req */
 #system-req {
-  background-image: url(/img/bg/requirements.png);
+  background-image: radial-gradient(30% 75% at 65% 40%, rgba(0, 0, 52, 0) 0%, rgba(10, 10, 10, 0.5) 50%, #000 95%), url(/img/bg/requirements.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -143,7 +153,7 @@ nav {
 }
 
 #top-scores .top-scores-title {
-  margin-top: 45vh;
+  padding-top: 45vh;
 }
 
 #top-scores .profilepic {
@@ -154,30 +164,50 @@ nav {
   margin: 15px 20px;
 }
 
-#top-scores .name {
-  margin-left: -30px;
-}
-
-#top-scores .twitter {
-  width: 35px;
-  height: 35px;
-  padding-left: 10px;
-}
-
 #top-scores .cards {
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 #top-scores .card-date {
   color: #a2a2a2;
 }
 
-/* Footer */
-footer {
+/* Newsletter */
+#newsletter {
   background-image: url(/img/bg/newsletter.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10%;
 }
 
+#newsletter .main-button {
+  margin-top: 25px;
+  height: 45px;
+}
+
+/* Footer */
+footer {
+  background-image: url(/img/bg/newsletter.png);
+}
+#footer .navbar-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-link p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer .footer-link a:hover {
+  color: #fbb341;
+}
 /* Media Query */
+@media screen and (max-width: 768px) {
+  /* top scores */
+  #top-scores .top-scores-title {
+    padding-top: 5vh;
+  }
+
+  #top-scores .top-scores-cards {
+    margin-top: 10vh;
+  }
+}
