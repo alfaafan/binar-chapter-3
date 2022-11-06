@@ -171,7 +171,7 @@ nav .nav-icon {
 
 /* Newsletter */
 #newsletter {
-  background-image: url(/img/bg/newsletter.png);
+  background-image: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080a0b 99.74%), url(/img/bg/newsletter.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10%;
