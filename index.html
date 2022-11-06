@@ -11,13 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
   </head>
-  <body id="main">
-    <!-- header -->
-    <header>
+  <body>
+    <!-- main -->
+    <section id="main">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" id="navbar-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#hero"><img width="50" height="50" src="img/icon/icon.ico" alt="Logo Game" /></a>
+          <a class="navbar-brand" href="#main"><img width="50" height="50" src="img/icon/icon.ico" alt="Logo Game" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,29 +54,25 @@
         </div>
       </nav>
       <!-- end of navbar -->
-      <!-- hero -->
-      <section id="hero">
-        <div class="container text-center">
-          <h1 class="headings ms-auto">play traditional game</h1>
-          <p class="body mt-4">Experience new traditional game play</p>
-          <a href="" class="main-button btn btn-warning btn-lg mt-5 mb-5">Play Now! <i class="bi bi-dice-5"></i></a>
-          <div class="story-scroll-sown">
-            <a href="#gallery" class="header-scroll-link-wrapper">
-              <p class="body mt-5">The Story</p>
-              <i class="bi bi-caret-down"></i>
-            </a>
-          </div>
+      <div class="container text-center main-title">
+        <h1 class="headings ms-auto">play traditional game</h1>
+        <p class="body mt-4">Experience new traditional game play</p>
+        <a href="" class="main-button btn btn-warning btn-lg mt-5 mb-5">Play Now! <i class="bi bi-dice-5"></i></a>
+        <div class="story-scroll-down">
+          <a href="#about" class="scroll-link-wrapper navigation">
+            <p class="body mt-5 navigation text-uppercase">The Story</p>
+            <i class="bi bi-caret-down"></i>
+          </a>
         </div>
-      </section>
-      <!-- end of hero -->
-    </header>
-    <!-- end of header -->
+      </div>
+    </section>
+    <!-- end of main-->
     <!-- about -->
     <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 about-left">
-            <p class="body">What's so special?</p>
+            <h3 class="headings">What's so special?</h3>
             <h1 class="headings">The Games</h1>
           </div>
           <div class="col-sm-7 about-right">
@@ -115,13 +111,13 @@
     <section id="features">
       <div class="container">
         <div class="row justify-content-end">
-          <div class="col-sm-4 features-title">
-            <p class="body">What's so special?</p>
+          <div class="col-lg-4 features-title">
+            <h3 class="headings">What's so special?</h3>
             <h1 class="headings">Features</h1>
           </div>
         </div>
         <div class="row justify-content-end">
-          <div class="col-sm-5 features-content">
+          <div class="col-lg-5 features-content">
             <div class="row features-content-list">
               <div class="col-2 features-pointer-1">
                 <img src="/img/icon/ellipse.svg" alt="Feature 1" />
@@ -155,7 +151,7 @@
     <!-- system requirements -->
     <section id="system-req">
       <div class="container">
-        <p class="body system-req-info text-center">Can My Computer Run this Game?</p>
+        <h3 class="headings system-req-info text-center">Can My Computer Run this Game?</h3>
         <div class="row requirements">
           <div class="col-sm-6 system-req-title">
             <h1 class="headings">System Requirements</h1>
@@ -212,7 +208,7 @@
           </div>
           <div class="col-md-6 top-scores-cards">
             <div class="row">
-              <div class="col-sm-10 offset-lg-2 cards">
+              <div class="col-md-10 offset-lg-2 cards">
                 <div id="card-1" class="text-white bg-dark mb-2 rounded">
                   <div class="card-header d-flex flex-row">
                     <img src="/img/top-scores/evan-lahti.jpg" class="img-fluid profilepic p-2 col-3" alt="Evan Lathi" />
@@ -220,7 +216,7 @@
                       <h3 class="headings text-warning">Evan Lathi</h3>
                       <p class="subtext">PC Gamer</p>
                     </div>
-                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 twitter float-end" alt="Twitter" />
+                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 offset-1 offset-md-0 offset-lg-1 twitter" alt="Twitter" />
                   </div>
                   <div class="card-body p-3">
                     <p class="body">"One of my gaming highlights of the year."</p>
@@ -230,7 +226,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-10 cards">
+              <div class="col-md-10 cards">
                 <div id="card-1" class="text-white bg-dark mb-2 rounded">
                   <div class="card-header d-flex flex-row">
                     <img src="/img/top-scores/jada-griffin.jpg" class="img-fluid profilepic p-2" alt="Jada Griffin" />
@@ -238,7 +234,7 @@
                       <h3 class="headings text-warning">Jada Griffin</h3>
                       <p class="subtext">Nerdreactorr</p>
                     </div>
-                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 twitter float-end" alt="Twitter" />
+                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 offset-1 offset-md-0 offset-lg-1 twitter" alt="Twitter" />
                   </div>
                   <div class="card-body p-3">
                     <p class="body">"The next big thing in the world of streaming and survival games."</p>
@@ -248,7 +244,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-10 offset-lg-2 cards">
+              <div class="col-md-10 offset-lg-2 cards">
                 <div id="card-1" class="text-white bg-dark mb-2 rounded">
                   <div class="card-header d-flex flex-row">
                     <img src="/img/top-scores/aaron-williams.jpg" class="img-fluid profilepic p-2" alt="Aaron Williams" />
@@ -256,7 +252,7 @@
                       <h3 class="headings text-warning">Aaron Williams</h3>
                       <p class="subtext">Uproxx</p>
                     </div>
-                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 twitter float-end" alt="Twitter" />
+                    <img src="/img/icon/twitter.svg" class="img-fluid col-2 offset-1 offset-md-0 offset-lg-1 twitter" alt="Twitter" />
                   </div>
                   <div class="card-body p-3">
                     <p class="body">"Snoop Dogg playing the wildly entertaining 'SOS' is ridiculous."</p>
@@ -280,7 +276,7 @@
             </figure>
           </div>
           <div class="col-xl newsletter-right">
-            <p class="body">Want to stay in touch?</p>
+            <h3 class="headings">Want to stay in touch?</h3>
             <h1 class="headings">Newsletter<br />Subscribe</h1>
             <p class="subtext">
               In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about the game. We don't spam.
@@ -302,8 +298,8 @@
       <!-- footer -->
       <footer id="footer">
         <nav class="navbar navbar-expand-lg navbar-dark navigation navbar-bottom">
-          <div class="container">
-            <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNavAltMarkup">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="#main">Main</a>
                 <a class="nav-link" href="#about">About</a>
